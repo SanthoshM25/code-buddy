@@ -1,4 +1,4 @@
-package server
+package handler
 
 import "net/http"
 
@@ -7,5 +7,4 @@ func handleConnection(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, http.StatusText(http.StatusMethodNotAllowed), http.StatusMethodNotAllowed)
 	}
 
-	
 }
