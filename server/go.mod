@@ -1,3 +1,4 @@
-module github.com/santhoshm25/code-buddy/server
+module github.com/code-buddy
 
 go 1.22.2
+
