@@ -1,6 +1,0 @@
-// package hub
-
-
-func createHub(){
-
-}
